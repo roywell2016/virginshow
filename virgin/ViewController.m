@@ -55,9 +55,36 @@ int tip=0;
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"%d viewDidLoad",++tip);
     
-    UILabel* label =[[UILabel alloc]initWithFrame:CGRectMake(20,100,280,30)];
+    UILabel* label =[[UILabel alloc]initWithFrame:CGRectMake(20,100,300,30)];
     label.text = @"hello world";
+    label.numberOfLines=0;
+    label.backgroundColor=[UIColor redColor];
+    label.font=[UIFont systemFontOfSize:23];
+    label.textColor=[UIColor whiteColor];
+    label.textAlignment=NSTextAlignmentCenter;
+    label.shadowColor=[UIColor greenColor];
+    label.shadowOffset=CGSizeMake(10, 10);
+    
     [self.view addSubview:label];
+    
+    UIButton* button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(40,150,240,30);
+    button.backgroundColor = [UIColor redColor];
+    [button setImage:[UIImage imageNamed:@"logo"] forState:UIControlStateNormal];
+    [button setContentEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    [button setImageEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    [button setTitleEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    [button setTitle:@"点我一下" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(changeColor) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+    UITextField* textfield = [[UITextField alloc]initWithFrame:CGRectMake(20, 200, 280, 30)];
+    textfield.borderStyle   = UITextBorderStyleRoundedRect;
+    textfield.placeholder=@"请输入文字";
+    UIImageView* imageview = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"logo"]];
+    textfield.leftView=imageview;
+    textfield.leftViewMode=UITextFieldViewModeAlways;
+    [self.view addSubview:textfield];
     
 }
 
@@ -70,8 +97,6 @@ int tip=0;
     [super viewDidLayoutSubviews];
     NSLog(@"%d viewDidLayoutSubviews",++tip);
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -104,6 +129,10 @@ int tip=0;
     NSLog(@"%d deallloc",++tip);
 }
 
+
+-(void)changeColor{
+    self.view.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
+}
 
 
 @end
