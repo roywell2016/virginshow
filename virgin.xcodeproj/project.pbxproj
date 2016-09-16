@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F92EDDB1D8B966D0074A53E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F92EDDA1D8B966D0074A53E /* main.m */; };
+		2F92EDDE1D8B966D0074A53E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F92EDDD1D8B966D0074A53E /* AppDelegate.m */; };
+		2F92EDE11D8B966D0074A53E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F92EDE01D8B966D0074A53E /* ViewController.m */; };
+		2F92EDE41D8B966D0074A53E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F92EDE21D8B966D0074A53E /* Main.storyboard */; };
+		2F92EDE61D8B966D0074A53E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F92EDE51D8B966D0074A53E /* Assets.xcassets */; };
+		2F92EDE91D8B966D0074A53E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F92EDE71D8B966D0074A53E /* LaunchScreen.storyboard */; };
+		2F92EDF41D8B966D0074A53E /* virginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F92EDF31D8B966D0074A53E /* virginTests.m */; };
+		2F92EDFF1D8B966D0074A53E /* virginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F92EDFE1D8B966D0074A53E /* virginUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F92EDF01D8B966D0074A53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F92EDCE1D8B966D0074A53E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F92EDD51D8B966D0074A53E;
+			remoteInfo = virgin;
+		};
+		2F92EDFB1D8B966D0074A53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F92EDCE1D8B966D0074A53E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F92EDD51D8B966D0074A53E;
+			remoteInfo = virgin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F92EDD61D8B966D0074A53E /* virgin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = virgin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F92EDDA1D8B966D0074A53E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F92EDDC1D8B966D0074A53E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F92EDDD1D8B966D0074A53E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F92EDDF1D8B966D0074A53E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F92EDE01D8B966D0074A53E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F92EDE31D8B966D0074A53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F92EDE51D8B966D0074A53E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F92EDE81D8B966D0074A53E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F92EDEA1D8B966D0074A53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F92EDEF1D8B966D0074A53E /* virginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = virginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F92EDF31D8B966D0074A53E /* virginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = virginTests.m; sourceTree = "<group>"; };
+		2F92EDF51D8B966D0074A53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F92EDFA1D8B966D0074A53E /* virginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = virginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F92EDFE1D8B966D0074A53E /* virginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = virginUITests.m; sourceTree = "<group>"; };
+		2F92EE001D8B966D0074A53E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F92EDD31D8B966D0074A53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F92EDEC1D8B966D0074A53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F92EDF71D8B966D0074A53E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F92EDCD1D8B966D0074A53E = {
+			isa = PBXGroup;
+			children = (
+				2F92EDD81D8B966D0074A53E /* virgin */,
+				2F92EDF21D8B966D0074A53E /* virginTests */,
+				2F92EDFD1D8B966D0074A53E /* virginUITests */,
+				2F92EDD71D8B966D0074A53E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F92EDD71D8B966D0074A53E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F92EDD61D8B966D0074A53E /* virgin.app */,
+				2F92EDEF1D8B966D0074A53E /* virginTests.xctest */,
+				2F92EDFA1D8B966D0074A53E /* virginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F92EDD81D8B966D0074A53E /* virgin */ = {
+			isa = PBXGroup;
+			children = (
+				2F92EDDC1D8B966D0074A53E /* AppDelegate.h */,
+				2F92EDDD1D8B966D0074A53E /* AppDelegate.m */,
+				2F92EDDF1D8B966D0074A53E /* ViewController.h */,
+				2F92EDE01D8B966D0074A53E /* ViewController.m */,
+				2F92EDE21D8B966D0074A53E /* Main.storyboard */,
+				2F92EDE51D8B966D0074A53E /* Assets.xcassets */,
+				2F92EDE71D8B966D0074A53E /* LaunchScreen.storyboard */,
+				2F92EDEA1D8B966D0074A53E /* Info.plist */,
+				2F92EDD91D8B966D0074A53E /* Supporting Files */,
+			);
+			path = virgin;
+			sourceTree = "<group>";
+		};
+		2F92EDD91D8B966D0074A53E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F92EDDA1D8B966D0074A53E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F92EDF21D8B966D0074A53E /* virginTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F92EDF31D8B966D0074A53E /* virginTests.m */,
+				2F92EDF51D8B966D0074A53E /* Info.plist */,
+			);
+			path = virginTests;
+			sourceTree = "<group>";
+		};
+		2F92EDFD1D8B966D0074A53E /* virginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F92EDFE1D8B966D0074A53E /* virginUITests.m */,
+				2F92EE001D8B966D0074A53E /* Info.plist */,
+			);
+			path = virginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F92EDD51D8B966D0074A53E /* virgin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F92EE031D8B966D0074A53E /* Build configuration list for PBXNativeTarget "virgin" */;
+			buildPhases = (
+				2F92EDD21D8B966D0074A53E /* Sources */,
+				2F92EDD31D8B966D0074A53E /* Frameworks */,
+				2F92EDD41D8B966D0074A53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = virgin;
+			productName = virgin;
+			productReference = 2F92EDD61D8B966D0074A53E /* virgin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F92EDEE1D8B966D0074A53E /* virginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F92EE061D8B966D0074A53E /* Build configuration list for PBXNativeTarget "virginTests" */;
+			buildPhases = (
+				2F92EDEB1D8B966D0074A53E /* Sources */,
+				2F92EDEC1D8B966D0074A53E /* Frameworks */,
+				2F92EDED1D8B966D0074A53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F92EDF11D8B966D0074A53E /* PBXTargetDependency */,
+			);
+			name = virginTests;
+			productName = virginTests;
+			productReference = 2F92EDEF1D8B966D0074A53E /* virginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F92EDF91D8B966D0074A53E /* virginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F92EE091D8B966D0074A53E /* Build configuration list for PBXNativeTarget "virginUITests" */;
+			buildPhases = (
+				2F92EDF61D8B966D0074A53E /* Sources */,
+				2F92EDF71D8B966D0074A53E /* Frameworks */,
+				2F92EDF81D8B966D0074A53E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F92EDFC1D8B966D0074A53E /* PBXTargetDependency */,
+			);
+			name = virginUITests;
+			productName = virginUITests;
+			productReference = 2F92EDFA1D8B966D0074A53E /* virginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F92EDCE1D8B966D0074A53E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = roywell;
+				TargetAttributes = {
+					2F92EDD51D8B966D0074A53E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2F92EDEE1D8B966D0074A53E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2F92EDD51D8B966D0074A53E;
+					};
+					2F92EDF91D8B966D0074A53E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2F92EDD51D8B966D0074A53E;
+					};
+				};
+			};
+			buildConfigurationList = 2F92EDD11D8B966D0074A53E /* Build configuration list for PBXProject "virgin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F92EDCD1D8B966D0074A53E;
+			productRefGroup = 2F92EDD71D8B966D0074A53E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F92EDD51D8B966D0074A53E /* virgin */,
+				2F92EDEE1D8B966D0074A53E /* virginTests */,
+				2F92EDF91D8B966D0074A53E /* virginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F92EDD41D8B966D0074A53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F92EDE91D8B966D0074A53E /* LaunchScreen.storyboard in Resources */,
+				2F92EDE61D8B966D0074A53E /* Assets.xcassets in Resources */,
+				2F92EDE41D8B966D0074A53E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F92EDED1D8B966D0074A53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F92EDF81D8B966D0074A53E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F92EDD21D8B966D0074A53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F92EDE11D8B966D0074A53E /* ViewController.m in Sources */,
+				2F92EDDE1D8B966D0074A53E /* AppDelegate.m in Sources */,
+				2F92EDDB1D8B966D0074A53E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F92EDEB1D8B966D0074A53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F92EDF41D8B966D0074A53E /* virginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F92EDF61D8B966D0074A53E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F92EDFF1D8B966D0074A53E /* virginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F92EDF11D8B966D0074A53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F92EDD51D8B966D0074A53E /* virgin */;
+			targetProxy = 2F92EDF01D8B966D0074A53E /* PBXContainerItemProxy */;
+		};
+		2F92EDFC1D8B966D0074A53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F92EDD51D8B966D0074A53E /* virgin */;
+			targetProxy = 2F92EDFB1D8B966D0074A53E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F92EDE21D8B966D0074A53E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F92EDE31D8B966D0074A53E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F92EDE71D8B966D0074A53E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F92EDE81D8B966D0074A53E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F92EE011D8B966D0074A53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F92EE021D8B966D0074A53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F92EE041D8B966D0074A53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = virgin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roywell.virgin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F92EE051D8B966D0074A53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = virgin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roywell.virgin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F92EE071D8B966D0074A53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = virginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roywell.virginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/virgin.app/virgin";
+			};
+			name = Debug;
+		};
+		2F92EE081D8B966D0074A53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = virginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roywell.virginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/virgin.app/virgin";
+			};
+			name = Release;
+		};
+		2F92EE0A1D8B966D0074A53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = virginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roywell.virginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = virgin;
+			};
+			name = Debug;
+		};
+		2F92EE0B1D8B966D0074A53E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = virginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roywell.virginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = virgin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F92EDD11D8B966D0074A53E /* Build configuration list for PBXProject "virgin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F92EE011D8B966D0074A53E /* Debug */,
+				2F92EE021D8B966D0074A53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F92EE031D8B966D0074A53E /* Build configuration list for PBXNativeTarget "virgin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F92EE041D8B966D0074A53E /* Debug */,
+				2F92EE051D8B966D0074A53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F92EE061D8B966D0074A53E /* Build configuration list for PBXNativeTarget "virginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F92EE071D8B966D0074A53E /* Debug */,
+				2F92EE081D8B966D0074A53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F92EE091D8B966D0074A53E /* Build configuration list for PBXNativeTarget "virginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F92EE0A1D8B966D0074A53E /* Debug */,
+				2F92EE0B1D8B966D0074A53E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F92EDCE1D8B966D0074A53E /* Project object */;
+}
